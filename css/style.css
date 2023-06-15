@@ -71,6 +71,10 @@ body {
 
 }
 
+.image1 {
+  margin-top: -15px;
+}
+
 .textButton {
   text-align: center;
   font-style: italic;
@@ -241,9 +245,17 @@ body {
   margin-right: 1.6vw;
 }
 
+.box-razzmatazz {
+  margin-top: -10px !important;
+}
+
 @media (min-width:991px) {
   .layout {
     font-size: 69px;
+  }
+
+  .box-razzmatazz {
+    margin-top: -15px !important;
   }
 
   .image-content {
